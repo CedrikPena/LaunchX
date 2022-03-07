@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="icon" type="x-icon" href="Imagenes/Pasteleria Yum-yum.png" />
+        <style>
+            body {
+                display: flex;
+                flex-direction: column;
+                margin: 0 0;
+                padding: 0 0;
+                background-color: #771F54;
+                color: #E2E2E2;
+                align-items: center;
+            }
+
+            a {
+                color: #E2E2E2;
+            }
+            
+            a:visited {
+                color: #757761
+            }
+
+            #logo {
+                height: 300px;
+                width: 300px;
+            }
+
+            .footer-info {
+                margin-top: 10px;
+                border-top: #E2E2E2 2px solid;
+            }
+
+            .social-media-icons {
+                margin: 10px 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Pasteleria - Digicake Yum-Yum</h1>
+        <img id="logo" src="Imagenes/Pasteleria Yum-yum.png" />
+        <nav class="navigation-menu">
+            <h4> <a href="#">Home</a> | <a href="#">Products</a> | <a href="#">Company</a> | <a href="#">Blog</a> | <a href="#">Contacto</a> </h4>
+        </nav>
+
+        <form>
+            <fieldset>
+                <legend> Información Personal: </legend>
+                <label> Nombre: </label> <br/> <input type="text"/> <br/>
+                <label> Telefono: </label> <br/> <input type="tel" /> <br/>
+                <label> Correo Electronico: <br/> </label> <input type="email" /> <br/> <br/>
+            </fieldset>
+            <fieldset>
+                <legend> Producto Deseado: </legend>
+                <label> Descripción General del producto: </label> <br/>
+                <textarea cols="40" rows="10" ></textarea> <br/> <br/>
+                <label> Sabores: </label> 
+                <select>
+                    <option> Chocolate </option>
+                    <option> Tres Leches </option>
+                    <option> Limon </option>
+                    <option> Zanahoria </option>
+                    <option> Piña con Chocolate </option>
+                    <option> Naranja </option>
+                    <option> Marmoleado </option>
+                    <option> Moca </option>
+                    <option> Vainilla </option>
+                </select>
+                <label> Decoraciones: </label> 
+                <select>
+                    <option> Crema Batida </option>
+                    <option> Ganache de Chocolate </option>
+                    <option> Cerezas </option>
+                    <option> Frutos rojos </option>
+                    <option> Imagen Comestible </option>
+                    <option> Rebanadas de Piña </option>
+                    <option> Merengue Suizo </option>
+                    <option> Fondan </option>
+                    <option> Fresas </option>
+                    <option> Rebanadas de Mango </option>
+                </select> <br/> <br/>
+                <input type="reset" /> <input type="button" value="Confirmar Pedido" />
+            </fieldset>
+        </form>
+        <footer class="footer-info">
+            <h4>Dirección:</h4>
+            <p>Félix Cuevas 920, Col. Del Valle, Benito Juárez, 03100 Ciudad de México, CDMX</p>
+            <h4>Telefono:</h4>
+            <p>55 1987 3265</p>
+            <h4>Horarios de Atención:</h4>
+            <p>Lunes a Sabado - 08:00AM - 10:00PM</p>
+
+            <h4>Aviso Legal | Bolsa de Trabajo | Terminos y Condiciones| Aviso de Privacidad| Sobre Nosotros</h4>
+            <div id="social-media">
+                <a href="https://www.facebook.com/">
+                <img class="social-media-icons" src="Imagenes/facebook_logo_icon.svg" height="100px" width="100px" />
+                </a>
+                <a href="https://www.instagram.com/">
+                    <img class="social-media-icons" src="Imagenes/instagram logo_icon.svg" height="100px" width="100px" />
+                </a>
+                <a href="https://twitter.com/?lang=en">
+                    <img class="social-media-icons" src="Imagenes/twitter logo_icon.svg" height="100px" width="100px" />
+                </a>
+            </div>
+        </footer>
+    </body>
+</html>

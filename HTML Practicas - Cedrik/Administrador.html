@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Panaderia - Digicake Yum-Yum - Pedidos</title>
+        <link rel="icon" type="x-icon" href="Imagenes/Pasteleria Yum-yum.png" />
+        <style>
+            body {
+                display: flex;
+                flex-direction: column;
+                margin: 0 0;
+                padding: 0 0;
+                background-color: #771F54;
+                color: #E2E2E2;
+                align-items: center;
+            }
+
+            a {
+                color: #E2E2E2;
+            }
+
+            a:visited {
+                color: #757761
+            }
+
+            #logo {
+                height: 300px;
+                width: 300px;
+            }
+
+            .contenedor {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                background-image: linear-gradient(to right, #008FD6, #B2053F);
+                color: #000000;
+                margin: 10px;
+                padding: 20px;
+                border: #E2E2E2 2px solid;
+            }
+
+            .contacto {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+            }
+
+            .contacto > #user-profile {
+                height: 50px;
+                width: 70px;
+                margin-left: 15px;
+                border-radius: 50%;
+            }
+
+            .contacto > h4, p {
+                margin-left: 15px;
+            }
+
+            .productos {
+                text-align: center;
+            }
+
+            .detalles-productos {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                flex-wrap: nowrap;
+                border: #E2E2E2 2px solid;
+                border-radius: 1%;
+            }
+
+            .detalles-productos > #detalles {
+                background-color: #E2E2E2;
+                color: 000000;
+                border-radius: 10%;
+                margin: 10px;
+                padding: 20px;
+                text-align: center;
+            }
+
+            .footer-info {
+                margin-top: 10px;
+                border-top: #E2E2E2 2px solid;
+            }
+
+            .social-media-icons {
+                margin: 10px 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Pasteleria - Digicake Yum-Yum</h1>
+        <img id="logo" src="Imagenes/Pasteleria Yum-yum.png" />
+        <nav class="navigation-menu">
+            <h4> <a href="#">Home</a> | <a href="#">Products</a> | <a href="#">Company</a> | <a href="#">Blog</a> | <a href="#">Contacto</a> </h4>
+        </nav>
+        <h1>Pedidos:</h1>
+        <div class="contenedor">
+            <div class="contacto">
+                <img id="user-profile" src="Imagenes/user-icon.jpg" />
+                <h4>Nombre:</h4>
+                <p>Giorgio Castro Olivárez</p>
+                <h4>Telefono:</h4>
+                <p>612-578-4303</p>
+                <h4>Correo Electronico:</h4>
+                <p>GiorgioCastroOlivarez@armyspy.com</p>
+            </div>
+            <div class="productos">
+                <h4>Descripción del Pedido:</h4>
+                <p>Pastel de chocolate con Cerezas</p>
+                <h4>Precio Total:</h4>
+                <p> $175.00 </p>
+            </div>
+            <div class="detalles-productos">
+                <div id="detalles">
+                    <h4>Chocolate</h4>
+                    <h4> Inventario: </h4>
+                    <p> 20pz. restantes </p>
+                    <img class="producto" src="Imagenes/chocolate cake.jpg" height="150px" width="200px" /> 
+                    <p>$125.00</p>
+                </div>
+                <div id="detalles">
+                    <h4>Cerezas</h4> 
+                    <h4> Inventario: </h4>
+                    <p> 3kg restantes </p>
+                    <img class="producto" src="Imagenes/cherries.jpg" height="150px" width="200px" /> 
+                    <p>$50.00</p>
+                </div>
+            </div>
+        </div>
+        <div class="contenedor">
+            <div class="contacto">
+                <img id="user-profile" src="Imagenes/user-icon.jpg" />
+                <h4>Nombre:</h4>
+                <p>Iraida Moreno Alanis</p>
+                <h4>Telefono:</h4>
+                <p>702-651-5665</p>
+                <h4>Correo Electronico:</h4>
+                <p>IraidaMorenoAlanis@rhyta.com</p>
+            </div>
+            <div class="productos">
+                <h4>Descripción del Pedido:</h4>
+                <p>pastel mitad de zanahoria con frutos rojos y mitad de naranja con fondan</p>
+                <h4>Precio Total:</h4>
+                <p> $225.00 </p>
+            </div>
+            <div class="detalles-productos">
+                <div id="detalles">
+                    <h4>Zanahoria</h4>
+                    <h4> Inventario: </h4>
+                    <p> 12pz. restantes </p>
+                    <img class="producto" src="Imagenes/carrot cake.jpg" height="150px" width="200px" /> 
+                    <p>$100.00</p>
+                </div>
+                <div id="detalles">
+                    <h4>Frutos Rojos</h4>
+                    <h4> Inventario: </h4>
+                    <p> 1kg restantes </p>
+                    <img class="producto" src="Imagenes/berries.jpg" height="150px" width="200px" /> 
+                    <p>$75.00</p>
+                </div>
+                <div id="detalles">
+                    <h4>Naranja</h4>
+                    <h4> Inventario: </h4>
+                    <p> 30pz. restantes </p>
+                    <img class="producto" src="Imagenes/orange cake.jpg" height="150px" width="200px" /> 
+                    <p>$100.00</p>
+                </div>
+                <div id="detalles">
+                    <h4>Fondan</h4>
+                    <h4> Inventario: </h4>
+                    <p> 2 restantes </p>
+                    <img class="producto" src="Imagenes/fondan.jpg" height="150px" width="200px" /> 
+                    <p>$40.00</p>
+                </div>
+            </div>
+        </div>
+        <footer class="footer-info">
+            <h4>Dirección:</h4>
+            <p>Félix Cuevas 920, Col. Del Valle, Benito Juárez, 03100 Ciudad de México, CDMX</p>
+            <h4>Telefono:</h4>
+            <p>55 1987 3265</p>
+            <h4>Horarios de Atención:</h4>
+            <p>Lunes a Sabado - 08:00AM - 10:00PM</p>
+
+            <h4>Aviso Legal | Bolsa de Trabajo | Terminos y Condiciones| Aviso de Privacidad| Sobre Nosotros</h4>
+            <div id="social-media">
+                <a href="https://www.facebook.com/">
+                <img class="social-media-icons" src="Imagenes/facebook_logo_icon.svg" height="100px" width="100px" />
+                </a>
+                <a href="https://www.instagram.com/">
+                    <img class="social-media-icons" src="Imagenes/instagram logo_icon.svg" height="100px" width="100px" />
+                </a>
+                <a href="https://twitter.com/?lang=en">
+                    <img class="social-media-icons" src="Imagenes/twitter logo_icon.svg" height="100px" width="100px" />
+                </a>
+            </div>
+        </footer>
+    </body>
+</html>
