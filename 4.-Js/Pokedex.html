@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Personal Pokedex - LaunchX </title>
+        <meta name="viewport" content="width=device-width, initial-scale= 1.0" />
+        <link rel="icon" type="x-icon" href="Images/pokeball.jpg" />
+        <link rel="stylesheet" href="Css/Pokedex-Responsive.css" />
+    </head>
+    <body>
+        <div class="pokemon-name-image">
+            <img id="pokemon-image" src="Images/pokeball.jpg" alt="Pokemon Image" />
+            <h1 id="pokemon-number-name"> #00 - Name </h1>
+        </div>        
+        <div class="pokemon-information">
+            <div class="pokemon-types" id="pokemon-types">
+                <h1> Type: </h1>
+            </div>
+            <div class="pokemon-weakness" id="pokemon-weakness">
+                <h1> Debilidades: </h1>
+            </div>
+            <div class="pokemon-stats" id="pokemon-stats">
+
+            </div>
+        </div>
+        <div class="pokemon-search">  
+            <input type="text" placeholder="pikachu" id="pokemon-name" name="pokemon-name" />
+            <button onclick="fetchPokemon()"> Buscar Pokemon </button>
+        </div>
+        <div class="pokemon-height">
+            <h2> Altura: </h2>
+            <p id="height"> 0.5 M </p>
+        </div>
+        <div class="pokemon-weight" >
+            <h2> Peso: </h2>
+            <p id="weight" > 90 Kg </p>
+        </div>
+        <div class="pokemon-moves" id="pokemon-moves">
+            <h1> Possible learned moves: </h1>
+        </div>
+    </body>
+    <footer>
+        <script src="Scripts/Pokedex-PokeAPICalls.js" >  </script>
+    </footer>
+</html>
